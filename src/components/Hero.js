@@ -22,7 +22,7 @@ export default function Hero() {
   }, []);
 
   return (
-    < div className='container pt-5'>
+    <section className='px-4 py-5 my-5 text-center'>
       <div className='card text-center w-50  mx-auto shadow'>
         <div className='card-header p-3 bg-success'>
           <h4 className='fw-bold text-white'>Random Quote </h4>
@@ -39,7 +39,7 @@ export default function Hero() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
     
   );
 }
